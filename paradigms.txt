@@ -2070,22 +2070,22 @@
 
 
 -paradigm: sbjv-e
- -flex: .եմ
+ -flex: .իմ
   gramm: prs,sg,1
   gloss: SBJV.PRS.1SG
- -flex: .ես
+ -flex: .իս
   gramm: prs,sg,2
   gloss: SBJV.PRS.2SG
  -flex: .ի
   gramm: prs,sg,3
   gloss: SBJV.PRS.3SG
- -flex: .ենք
+ -flex: .ինք
   gramm: prs,pl,1
   gloss: SBJV.PRS.1PL
- -flex: .եք
+ -flex: .իք
   gramm: prs,pl,2
   gloss: SBJV.PRS.2PL
- -flex: .են
+ -flex: .ին
   gramm: prs,pl,3
   gloss: SBJV.PRS.3PL
 
@@ -3416,23 +3416,23 @@
 
 
 -paradigm: V41
- -flex: <1>.մ
+ -flex: <2>.մ
   gramm: prs,sg,1
   gloss: PRS.1SG
- -flex: <1>.ս
+ -flex: <2>.ս
   gramm: prs,sg,2
   gloss: PRS.2SG
  -flex: <0>.
   gramm: prs,sg,3
  -flex: <3>.
   gramm: prs,sg,3,oral
- -flex: <1>.նք
+ -flex: <2>.նք
   gramm: prs,pl,1
   gloss: PRS.1PL
- -flex: <1>.ք
+ -flex: <2>.ք
   gramm: prs,pl,2
   gloss: PRS.2PL
- -flex: <1>.ն
+ -flex: <2>.ն
   gramm: prs,pl,3
   gloss: PRS.3PL
  -flex: <0>.ի
@@ -3454,22 +3454,22 @@
   gramm: pst,pl,3
   gloss: PST|3PL
 
- -flex: <1>չ.մ
+ -flex: <2>չ.մ
   gramm: prs,sg,1,neg
   gloss: NEG|PRS.1SG
- -flex: <1>չ.ս
+ -flex: <2>չ.ս
   gramm: prs,sg,2,neg
   gloss: NEG|PRS.2SG
  -flex: <0,2>չ.
   gramm: prs,sg,3,neg
   gloss: NEG
- -flex: <1>չ.նք
+ -flex: <2>չ.նք
   gramm: prs,pl,1,neg
   gloss: NEG|PRS.1PL
- -flex: <1>չ.ք
+ -flex: <2>չ.ք
   gramm: prs,pl,2,neg
   gloss: NEG|PRS.2PL
- -flex: <1>չ.ն
+ -flex: <2>չ.ն
   gramm: prs,pl,3,neg
   gloss: NEG|PRS.3PL
  -flex: <0>չ.ի
