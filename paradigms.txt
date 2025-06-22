@@ -186,16 +186,13 @@
  -flex: .ի<.>
   gramm: obl
   gloss: OBL
- -flex: .ից<.>
+ -flex: .է<.>
   gramm: abl
   gloss: ABL
  -flex: .ով<.>
   gramm: ins
   gloss: INS
- -flex: .ում<.>
-  gramm: loc
-  gloss: LOC
- paradigm: poss_def
+  paradigm: poss_def
 
 -paradigm: nmlz
  -flex: .ն<.>
@@ -218,17 +215,13 @@
   gloss: OBL
   paradigm: nmlz
   paradigm: poss_def
- -flex: .ից<.>
+ -flex: .է<.>
   gramm: abl
   gloss: ABL
   paradigm: poss_def
  -flex: .ով<.>
   gramm: ins
   gloss: INS
-  paradigm: poss_def
- -flex: .ում<.>
-  gramm: loc
-  gloss: LOC
   paradigm: poss_def
   
  -flex: .յի<.>
@@ -237,7 +230,7 @@
   paradigm: nmlz
   paradigm: poss_def
   regex-prev: ^.*[^բգդզթժլխծկհձղճմյնշչպջռսվտրցփքֆև<>.][<>.]*$
- -flex: .յից<.>
+ -flex: .յէ<.>
   gramm: abl
   gloss: ABL
   paradigm: poss_def
@@ -245,11 +238,6 @@
  -flex: .յով<.>
   gramm: ins
   gloss: INS
-  paradigm: poss_def
-  regex-prev: ^.*[^բգդզթժլխծկհձղճմյնշչպջռսվտրցփքֆև<>.][<>.]*$
- -flex: .յում<.>
-  gramm: loc
-  gloss: LOC
   paradigm: poss_def
   regex-prev: ^.*[^բգդզթժլխծկհձղճմյնշչպջռսվտրցփքֆև<>.][<>.]*$
 
@@ -351,17 +339,13 @@
   gloss: OBL
   paradigm: nmlz
   paradigm: poss_def
- -flex: .ուց<.>
+ -flex: .է<.>
   gramm: abl
   gloss: ABL
   paradigm: poss_def
  -flex: .ով<.>
   gramm: ins
   gloss: INS
-  paradigm: poss_def
- -flex: .ում<.>
-  gramm: loc
-  gloss: LOC
   paradigm: poss_def
   
  -flex: .յու<.>
@@ -370,7 +354,7 @@
   paradigm: nmlz
   paradigm: poss_def
   regex-prev: ^.*[^բգդզթժլխծկհձղճմյնշչպջռսվտրցփքֆև<>.][<>.]*$
- -flex: .յուց<.>
+ -flex: .յէ<.>
   gramm: abl,nonst
   gloss: ABL
   paradigm: poss_def
@@ -378,11 +362,6 @@
  -flex: .յով<.>
   gramm: ins,nonst
   gloss: INS
-  paradigm: poss_def
-  regex-prev: ^.*[^բգդզթժլխծկհձղճմյնշչպջռսվտրցփքֆև<>.][<>.]*$
- -flex: .յում<.>
-  gramm: loc,nonst
-  gloss: LOC
   paradigm: poss_def
   regex-prev: ^.*[^բգդզթժլխծկհձղճմյնշչպջռսվտրցփքֆև<>.][<>.]*$
 
@@ -1139,13 +1118,13 @@
  -flex: .եր<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 -paradigm: pl-ner
  -flex: .ներ<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 -paradigm: pl-ik
  -flex: .իկ<.>
@@ -1337,7 +1316,7 @@
  -flex: .եր<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 -paradigm: A11
  -flex: .<.>
@@ -1364,7 +1343,7 @@
  -flex: .ներ<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 -paradigm: A12
  -flex: .<.>
@@ -1414,11 +1393,11 @@
  -flex: <1>.եր<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
  -flex: <0>.եր<.>
   gramm: pl,nonst
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 -paradigm: A13
  -flex: .<.>
@@ -1445,11 +1424,11 @@
  -flex: <0>.ներ<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
  -flex: <1>.ներ<.>
   gramm: pl,nonst
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 -paradigm: A14
  -flex: .<.>
@@ -1479,7 +1458,7 @@
  -flex: <1>.ներ<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 
 -paradigm: N17
@@ -1492,7 +1471,7 @@
  -flex: <0>.ներ<.>
   gramm: pl
   gloss: PL
-  paradigm: case-i
+  paradigm: case-u
 
 
 -paradigm: N18a
@@ -3416,9 +3395,15 @@
 
 
 -paradigm: V41
+ -flex: <1>.մ
+  gramm: prs,sg,1
+  gloss: PRS.1SG
  -flex: <2>.մ
   gramm: prs,sg,1
   gloss: PRS.1SG
+ -flex: <1>.ս
+  gramm: prs,sg,2
+  gloss: PRS.2SG
  -flex: <2>.ս
   gramm: prs,sg,2
   gloss: PRS.2SG
@@ -3426,12 +3411,21 @@
   gramm: prs,sg,3
  -flex: <3>.
   gramm: prs,sg,3,oral
+ -flex: <1>.նք
+  gramm: prs,pl,1
+  gloss: PRS.1PL
  -flex: <2>.նք
   gramm: prs,pl,1
   gloss: PRS.1PL
+ -flex: <1>.ք
+  gramm: prs,pl,2
+  gloss: PRS.2PL
  -flex: <2>.ք
   gramm: prs,pl,2
   gloss: PRS.2PL
+ -flex: <1>.ն
+  gramm: prs,pl,3
+  gloss: PRS.3PL
  -flex: <2>.ն
   gramm: prs,pl,3
   gloss: PRS.3PL
@@ -3454,22 +3448,22 @@
   gramm: pst,pl,3
   gloss: PST|3PL
 
- -flex: <2>չ.մ
+ -flex: <1>չ.մ
   gramm: prs,sg,1,neg
   gloss: NEG|PRS.1SG
- -flex: <2>չ.ս
+ -flex: <1>չ.ս
   gramm: prs,sg,2,neg
   gloss: NEG|PRS.2SG
  -flex: <0,2>չ.
   gramm: prs,sg,3,neg
   gloss: NEG
- -flex: <2>չ.նք
+ -flex: <1>չ.նք
   gramm: prs,pl,1,neg
   gloss: NEG|PRS.1PL
- -flex: <2>չ.ք
+ -flex: <1>չ.ք
   gramm: prs,pl,2,neg
   gloss: NEG|PRS.2PL
- -flex: <2>չ.ն
+ -flex: <1>չ.ն
   gramm: prs,pl,3,neg
   gloss: NEG|PRS.3PL
  -flex: <0>չ.ի
